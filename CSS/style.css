@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body e sfondo */
+body{
+    width: 600px;
+    height: 600px;
+    background-color: lightblue;
+    background-image: url(https://images.unsplash.com/photo-1484542603127-984f4f7d14cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1132&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* proprietà della section che contiene il client Email */
+section{
+    width: 900px;
+    height: 300px;
+/*    background-color: lightblue; */
+    margin: 150px 300px;
+    border-radius: 15px;
+}
+
+/* proprietà logo dell'email */
+img{
+    width: 80px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+div{
+    margin:10px;
+}
+
+/* proprietà di tutti i bottoni della pagina */
+button{
+    border-radius: 5px;
+    padding: 2px;
+    background: lightblue;
+    border: 1px solid blue;
+}
+/* definiazione classe circle */
+.circle{
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* proprietà delle caselle della barra di ricerca e del menu a tendina */
+input, select{
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+/* box lista email non lette (evidenziate con un colore verde chiaro) */
+.box{
+    background-color: lightseagreen;
+    margin: 0px;
+    border: 1px solid black;
+    height: 25px;
+    padding: 3px;
+    line-height: 15px;
+    border-radius: 5px;
+}
+
+/* box email già letta (evidenziata con un colore azzurrino) */
+.boxaperta{
+    background-color: lightcyan;
+    margin: 0px;
+    border: 1px solid black;
+    height: 25px;
+    padding: 3px;
+    line-height: 15px;
+    border-radius: 5px;
+}
+
+/* definizione bottone per avanzare nella pagina */
+.avanti{
+    margin-left: 800px;
+}
+
+div p{
+    font-weight: bold;
+}
+
+span{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer{
+    text-align: center;
+}
